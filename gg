@@ -1,0 +1,21 @@
+In your Codespace you will see an empty file called script.py. Modify it so that it contains a shebang and a main block. (1)
+Outside of your main block, create a variable called test_int and give it an integer value. (1)
+Inside your main block, print the following: My value is <number> where <number> is the value of test_int. (1)
+Inside your main block, if the value of test_int is less than 10, print my number is small. Otherwise print my number is big. (2)
+Test your code and verify that it is working. Then move to the next section.
+
+Outside of your main block, create a list called numbers. Fill it with at least 4 different integers. (1)
+Outside of your main block, create a function called squared. This function should square a given number. (2)
+Inside your main block, paste the following. If you get an AssertionError it means you've made a mistake.
+assert squared(4) == 16
+assert squared(6) == 36
+Test your code and ensure that it works.
+
+Inside your main block, use an appropriate loop to iterate through numbers and for each number, use your squared function to get a result. (1)
+Outside of your main blocks, create an empty list called squares. Now for each result given inside the loop that you created in the previous step, add the result to squares. (1)
+Test your code, and ensure that it works. Then proceed to the next section.
+
+Create a function called file_op. This function should accept a list as parameter and return nothing. (1)
+Inside your function, open a file for writing. The file should be called output.txt. You can hard-code this value. Each item of the list your accept as a parameter should be written to a new line inside this file. You should use best practices as taught in the course to do this. (3)
+Call your file_op function inside main, and pass in squares as the argument. (1)
+Once you have completed the script, be sure to commit your work on Codespaces, then copy the code into the textbox below.
